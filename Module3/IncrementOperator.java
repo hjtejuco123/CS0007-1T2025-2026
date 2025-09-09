@@ -1,9 +1,15 @@
+//Increment Operator
+//++, --
 package Module3;
-// Class definition
 public class IncrementOperator {
-    // Main method: Entry point of the program
+    
     public static void main(String[] args) {
-        // Your code goes here
-        System.out.println("Hello, World!"); // Example: Printing a message
+        int a = 5;
+        System.out.println("Increment Operator!"); 
+        System.out.println("Initial Value "+a);
+        a++; //post increment
+        System.out.println("Post Inc Value "+a);
+        ++a; //pre increment
+        System.out.println("Pre Increment Values "+a);
     }
 }
