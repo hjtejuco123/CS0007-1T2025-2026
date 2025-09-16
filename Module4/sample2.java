@@ -36,5 +36,6 @@ public class sample2 {
         }
 
         System.out.println("The day is: " + dayName);
+        scanner.close();
     }
 }
