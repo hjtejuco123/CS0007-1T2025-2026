@@ -22,4 +22,5 @@ public class sample1 {
 
         System.out.println("The student's grade is: " + grade);
     }
+    scanner.close();
 }

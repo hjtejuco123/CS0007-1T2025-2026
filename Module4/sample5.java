@@ -3,7 +3,6 @@ package Module4;
 //syntax while(condition){
 //statements
 //}
-import java.util.Scanner;
 public class sample5 {
     public static void main(String[] args) {
         int count = 1;

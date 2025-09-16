@@ -31,5 +31,6 @@ public class sample3 {
         }
 
         System.out.println("The color is: " + colorName);
+        scanner.close();
     }
 }
