@@ -7,6 +7,6 @@ public class sample2 {
     System.out.print("Welcome to Java Programming"); // prints Welcome to Java Programming and stays on the same line
     System.out.print(" - Enjoy coding!"); // prints - Enjoy coding! on the same line
     System.out.println(); // moves to the next line
-    System.out.printf("This is a formatted number: %.2f", 123.456); // prints formatted number with 2 decimal places
+    System.out.printf("This is a formatted number: %.2f%n", 123.456); // prints formatted number with 2 decimal places
   }  
 }
