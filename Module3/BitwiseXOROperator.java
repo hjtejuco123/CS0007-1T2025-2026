@@ -1,6 +1,8 @@
 package Module3;
 /*
- * The bitwise XOR (^) operator in Java performs an exclusive OR operation on each pair of corresponding bits of two numbers. The result is 1 if the bits are different and 0 if they are the same.
+ * The bitwise XOR (^) operator in Java performs an exclusive OR operation on each pair
+ of corresponding bits of two numbers. The result is 1 if the bits are different and 0 
+ if they are the same.
  * 
  */
 public class BitwiseXOROperator {
