@@ -1,8 +1,17 @@
 package Module3;
 /*
- * The bitwise OR (|) operator in Java is used to perform a bitwise OR operation between two integral operands. It compares each bit of the operands and sets the corresponding result bit to 1 if either of the bits is 1. Otherwise, the result bit is set to 0.
+ * The bitwise OR (|) operator in Java is used to perform a bitwise OR operation between two 
+ integral operands. It compares each bit of the operands and sets the corresponding 
+ result bit to 1 if either of the bits is 1. Otherwise, the result bit is set to 0.
  * 
  * result = operand1 | operand2;
+
+    Exp1         Exp2            AND           OR            NOT
+                                FAND           TOR            
+    t            t                t            t             t    = f       
+    t            f                f            t             f    = t   
+    f            t                f            t
+    f            f                f            f
 
  */
 public class BitwiseOrOperator {
