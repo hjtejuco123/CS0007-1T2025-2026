@@ -1,26 +1,38 @@
 package Module2;
 //create a program to demostrate input and output using scanner class
+//use all data types
 import java.util.Scanner;
 public class sample5 {
-    public static void main(String[] args) {
+    public static void main(String[] args) {    
         Scanner scanner = new Scanner(System.in);
 
-        // Prompt the user for input
-        System.out.print("Enter your name: ");
-        String name = scanner.nextLine();
+        // Taking input of different data types
+        System.out.print("Enter an integer: ");
+        int myInt = scanner.nextInt();
 
-        System.out.print("Enter your age: ");
-        int age = scanner.nextInt();
+        System.out.print("Enter a double: ");
+        double myDouble = scanner.nextDouble();
 
-        System.out.print("Enter your height in meters (e.g., 1.75): ");
-        double height = scanner.nextDouble();
+        System.out.print("Enter a character: ");
+        char myChar = scanner.next().charAt(0);
 
-        // Display the input back to the user
-        System.out.println("Hello, " + name + "!");
-        System.out.println("You are " + age + " years old.");
-        System.out.printf("Your height is %.2f meters.%n", height);
+        System.out.print("Enter a boolean (true/false): ");
+        boolean myBoolean = scanner.nextBoolean();
 
-        // Close the scanner to prevent resource leaks
+        System.out.print("Enter a string: ");
+        scanner.nextLine(); // Consume the newline character
+        String myString = scanner.nextLine();
+
+        // Displaying the input values
+        System.out.println("You entered:");
+        System.out.println("Integer: " + myInt);
+        System.out.println("Double: " + myDouble);
+        System.out.println("Character: " + myChar);
+        System.out.println("Boolean: " + myBoolean);
+        System.out.println("String: " + myString);
+
+        // Closing the scanner
         scanner.close();
+      
     }    
 }
