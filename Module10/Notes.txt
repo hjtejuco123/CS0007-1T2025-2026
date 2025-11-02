@@ -1,0 +1,14 @@
+
+Overview of Java I/O
+
+    Java’s Input and Output operations (Java I/O) are used to process input and 
+    generate output efficiently by using the concept of streams. 
+    
+    The java.io package encapsulates all classes needed for these operations.
+
+Stream Concept: A stream in Java represents a continuous flow of data in the form of bytes, 
+    similar to a water stream. Java provides three primary pre-defined streams:
+    
+    System.out: Standard output stream for console printing.
+    System.in: Standard input stream for reading user input.
+    System.err: Standard error stream for printing error messages.

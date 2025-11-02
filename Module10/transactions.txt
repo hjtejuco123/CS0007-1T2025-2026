@@ -1,0 +1,5 @@
+Checked balance: $1000.0
+Checked balance: 1000.0
+Deposited: 500.0
+Checked balance: 1500.0
+Withdrew: 1000.0
