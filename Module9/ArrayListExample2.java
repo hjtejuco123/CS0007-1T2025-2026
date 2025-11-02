@@ -1,3 +1,5 @@
+//Example 2: Removing Elements
+
 import java.util.ArrayList;
 
 public class ArrayListExample2 {
